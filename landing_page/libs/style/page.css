@@ -1,0 +1,218 @@
+				/*Style reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+				/*Page styles*/
+@font-face {
+	font-family: Exo Light;
+	src: url(fonts/Exo-Light.ttf);
+}
+@font-face {
+	font-family: Exo Regular;
+	src: url(fonts/exoRegular.ttf);
+}
+h1 {
+	font-size: 62px;
+	font-family: "Exo Light";
+	color: rgb(40, 40, 40);
+	line-height: 1.25;
+	width: 708px;
+}
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	font-family: "Exo Light";
+}
+h3 {
+	font-size: 20px;
+	font-weight: normal;
+}
+p {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+
+header {
+	max-width: 100%;
+	height: 815px;
+	background: url(../image/fon.jpg) 100% 100% no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.wrapper {
+	margin-top: 150px;
+	text-align: center;
+	max-width: 708px;
+}
+.wrapper h1 {
+	padding-bottom: 50px;
+}
+
+.wrapper .try__now > button {
+	background-color: #ff6d6d;
+	border: none;
+	border-radius: 3px;
+	width: 190px;
+	height: 50px;
+	margin-bottom: 20px;
+	font-family: "Exo Regular";
+	font-size: 16px;
+	color: #fff;
+}
+.wrapper>p {
+	color: #43474e;
+  	font-family: "Exo Regular";
+}
+.play {
+	border: none;
+	margin-bottom: 30px;
+	background: none;
+}
+				/*New design*/
+.wrapper__design {
+	width: 100%;
+	height: 725px;
+	display: flex;
+}
+.left__side {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 190px;
+}
+.side_wrapper {
+	width: 40%;
+	height: 100%;
+}
+.side__wrapper > p.red {
+	color: #ff6d6d;
+	text-transform: uppercase;
+	font-family: "Exo Regular";
+	padding-bottom: 20px;
+}
+.side__wrapper h2 {
+	padding-bottom: 40px;
+}
+.side__wrapper>p:not(:first-child) {
+	padding-bottom: 40px;
+	font-family: "Exo Light";
+	font-style: italic; 
+}
+
+
+.right__side {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.first__elem {
+	width: 100%;
+	height: 250px;
+	background-color: #ececec;
+}
+
+.second__elem {
+	width: 100%;
+	height: 480px;
+	background: linear-gradient(to top left, #fb8686 50%, #ececec 50%);
+}
+				/*New Features*/
+.wrapper__features {
+	width: 100%;
+	background-color: #f6f5f3;
+	min-height: 670px;
+}
+.wrapper__features > p {
+	font-family: "Exo Regular";
+	font-style: bold;
+	color: #ff6d6d;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 130px;
+}
+
+.wrapper__features > h2 {
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 90px;
+}
+.cards__wrapper {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	padding: 0 10%;
+}
+
+.cards__wrapper h3 {
+	font-style: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.cards__wrapper h3,
+.cards__wrapper p {
+	font-family: "Exo Regular";
+}
+
+.cards__wrapper>.card__picture,
+.cards__wrapper>.card__plain {
+	padding-right: 30px;
+}
+
+.wrapper__features > img {
+	position: relative;
+}
+
+.earphones {
+	left: 100px;
+	top: -370px;
+}
+
+
+
